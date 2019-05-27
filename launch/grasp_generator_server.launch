@@ -1,0 +1,11 @@
+<launch>
+  <arg name="robot"        default="nao"/>
+  <arg name="group"        default="right_arm"/>
+  <arg name="end_effector" default="right_hand"/>
+​
+  <node pkg="moveit_simple_grasps" type="moveit_simple_grasps_server" name="moveit_simple_grasps_server">
+    <param name="group"        value="$(arg group)"/>
+    <param name="end_effector" value="$(arg end_effector)"/>
+    <rosparam command="load" file="$(find nao_grasping)/config/$(arg robot)_grasp_data.yaml"/>
+  </node>
+</launch>
