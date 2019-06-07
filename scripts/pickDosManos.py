@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import sys
 import copy
 import rospy
@@ -95,6 +97,7 @@ class MoveGroupPythonIntefaceTutorial(object):
     joint_goal[11] = 0 #0
 
     print("se agacha ...")
+    raw_input()
     move_group9.go(joint_goal, wait=True)
 
     #BRAZOS
@@ -114,6 +117,7 @@ class MoveGroupPythonIntefaceTutorial(object):
     joint_goal1[11] = 1
 
     print("mueve los dos brazos ...")
+    raw_input()
     move_group8.go(joint_goal1, wait=True)
 
     #BRAZOS
@@ -133,6 +137,7 @@ class MoveGroupPythonIntefaceTutorial(object):
     joint_goal1[11] = 1
 
     print("cogiendo caja ...")
+    raw_input()
     move_group8.go(joint_goal1, wait=True)
 
     box_name = self.box_name
@@ -180,6 +185,7 @@ class MoveGroupPythonIntefaceTutorial(object):
     joint_goal[11] = 0 #0
 
     print("se levanta con la caja ...")
+    raw_input()
     move_group9.go(joint_goal, wait=True)
 
     rospy.sleep(3)

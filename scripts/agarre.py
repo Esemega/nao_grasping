@@ -174,7 +174,6 @@ class MoveGroupPythonIntefaceTutorial(object):
 
     rospy.sleep(2)
 
-    ######T'HAS QUEDAT PER ACÍ
     joint_goal1 = move_group8.get_current_joint_values()
     joint_goal1[0] = -1.3
     joint_goal1[1] = -0.31
