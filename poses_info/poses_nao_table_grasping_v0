@@ -1,0 +1,169 @@
+#RIGHT_ARM
+
+INITIAL TABLE POSITION  ------- WITHOUT OBJECT
+
+Current Joint Values of group:right_arm
+[-0.4249465270421411, -0.3717696143176477, 0.0743561154592446, 1.2273564863725686, 0.2454275342503065, 9.630840155296029e-06]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559239777
+    nsecs: 445008039
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.1454616099
+    y: -0.167453894049
+    z: 0.0229399442222
+  orientation:
+    x: 0.68204400069
+    y: -0.120813834253
+    z: -0.0640939624814
+    w: 0.718409327994
+
+    Current Joint Values of group:right_arm
+[-0.640798499241249, -0.4291162553686561, -0.07022794394551166, 1.071965392235611, 0.36092016302124413, 1.084279245696962e-05]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559241919
+    nsecs: 744237899
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.161789366904
+    y: -0.166771170704
+    z: 0.0389397350194
+  orientation:
+    x: 0.700409979945
+    y: -0.115912098387
+    z: -0.0314087292241
+    w: 0.703565019859
+
+
+
+INITIAL POSITION ------- WITH OBJECT
+
+HAND OPENED
+Current Joint Values of group:right_arm
+[-0.4923607602778643, -0.32935297410079517, -0.1644898576040016, 1.2859134316648373, 0.3200023223677798, 0.9999588521900586]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559241307
+    nsecs: 945768117
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.152306681298
+    y: -0.135433068331
+    z: 0.0290682969545
+  orientation:
+    x: 0.954733183288
+    y: -0.0261028678309
+    z: 0.0619418066805
+    w: 0.289769566388
+
+HAND CLOSED
+Current Joint Values of group:right_arm
+[-0.4930591647498183, -0.32840629853794784, -0.1639313598569923, 1.2840545462092214, 0.33211670843288194, 9.630840155296029e-06]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559239320
+    nsecs: 244751930
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.152386393395
+    y: -0.135437818726
+    z: 0.0291162828562
+  orientation:
+    x: 0.703672678887
+    y: -0.0523081600881
+    z: 0.0415797265931
+    w: 0.707375249576
+
+
+UP POSITION 1
+Current Joint Values of group:right_arm
+[-0.9336785179978503, -0.3875636155629043, -0.3965636445805504, 0.8941505486686968, 0.48859869373712117, 3.306760375853628e-05]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559242299
+    nsecs: 570362091
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.182877910378
+    y: -0.140591883246
+    z: 0.0563695681502
+  orientation:
+    x: 0.703371812998
+    y: -0.0520895961588
+    z: 0.0435130116813
+    w: 0.707574296075
+
+UP POSITION 2
+Current Joint Values of group:right_arm
+[-1.201988351374705, -0.021375712657475513, -1.036126729394868, 0.7851861690694248, 0.8609395828183806, 3.306760375853628e-05]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559243028
+    nsecs: 870055913
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.181819835254
+    y: -0.0411307971706
+    z: 0.0644111710933
+  orientation:
+    x: 0.687056915639
+    y: 0.186473107341
+    z: 0.230849344358
+    w: 0.663241400337
+
+
+
+FINAL POSITION
+Current Joint Values of group:right_arm
+[-0.8033526433465951, 0.13043256404426035, -0.473562625401346, 0.9202547584022998, 0.18164128727557435, 3.306760375853628e-05]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559243276
+    nsecs: 771218061
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.171577470352
+    y: -0.0444615543739
+    z: 0.0312972466675
+  orientation:
+    x: 0.701919099575
+    y: 0.11002145141
+    z: 0.166077958497
+    w: 0.683829634911
+
+INITIAL POSITION AGAIN
+
+Current Joint Values of group:right_arm
+[7.530376361683007e-06, -8.564591174945241e-06, -2.1048386814072735e-05, 0.8000155083423947, 5.5067451996728775e-05, 6.665921839885414e-06]
+Current Pose of group right_arm: header:
+  seq: 0
+  stamp:
+    secs: 1559243387
+    nsecs: 571487903
+  frame_id: "/odom"
+pose:
+  position:
+    x: 0.0707227665458
+    y: -0.107218480372
+    z: -0.0889548661351
+  orientation:
+    x: 0.655966531849
+    y: 0.259349318771
+    z: -0.312160359467
+    w: 0.636397477937
